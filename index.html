@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Abrindo conteúdo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            padding: 14px 22px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #0088cc;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p>Abrindo conteúdo…</p>
+    <button onclick="go()">Continuar</button>
+</div>
+<script>
+    const LINK_DESTINO = "https://047win.org/?id=315606014";
+
+
+    function go() {
+        window.location.href = LINK_DESTINO;
+    }
+
+    // Opcional: abrir automaticamente após 1 segundo
+    setTimeout(go, 1000);
+</script>
+</body>
+</html>
